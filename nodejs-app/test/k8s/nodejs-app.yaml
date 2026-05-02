@@ -11,7 +11,7 @@ spec:
   source:
     repoURL: https://github.com/eunjye/gitops-test.git
     targetRevision: main
-    path: springboot-app/hello/k8s
+    path: nodejs-app/test/k8s
 
   destination:
     server: https://kubernetes.default.svc
