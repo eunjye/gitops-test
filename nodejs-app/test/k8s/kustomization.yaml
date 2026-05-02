@@ -9,4 +9,4 @@ resources:
 images:
 - name: eunjye2/nodejs-app
   newName: eunjye2/nodejs-app
-  newTag: de1d4c7
+  newTag: b5881a8
