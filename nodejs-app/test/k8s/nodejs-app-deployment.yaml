@@ -18,4 +18,4 @@ spec:
         # Kustomize가 이 이미지 태그를 관리
         image: eunjye2/nodejs-app:latest
         ports:
-        - containerPort: 8080
+        - containerPort: 3000
