@@ -3,8 +3,6 @@ name: Nodejs CI/CD (Build, Push, Update Manifest)
 on:
   push:
     branches: [ "main" ]
-    paths:
-      - 'nodejs-app/test/**'
   workflow_dispatch:
 
 jobs:
