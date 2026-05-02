@@ -1,0 +1,12 @@
+apiVersion: kustomize.config.k8s.io/v1beta1
+kind: Kustomization
+
+# Kustomization이 관리할 리소스 목록을 정의
+resources:
+- nodejs-app-namespace.yaml
+- nodejs-app-deployment.yaml
+- nodejs-app-service.yaml
+images:
+- name: eunjye2/nodejs-app
+  newName: eunjye2/nodejs-app
+  newTag: 7ea8ce1
